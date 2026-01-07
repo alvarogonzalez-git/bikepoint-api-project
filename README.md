@@ -1,4 +1,10 @@
-# BikePoint Data Pipeline
+<p align="center">
+  <img src="tfl_logo.png" width="38%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="santander_cycles_logo.png" width="38%" /> 
+</p>
+
+#  BikePoint Data Pipeline
 
 This project was completed as a part of The Information Lab's Data Engineering School. It was incrementally developed on a weekly basis by applying the core skills that correspond to the main stages in the Data Engineering lifecycle: Extract, Transform and Load (ETL). The data for this project comes from Transport for London's (TfL) Unified API. This readme is divided into sections that provide more detail on each stage of development
 
