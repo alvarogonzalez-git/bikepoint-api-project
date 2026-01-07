@@ -1,6 +1,6 @@
-# TfL's API - BikePoint Data Pipeline
+# BikePoint Data Pipeline
 
-This project was completed as a part of The Information Lab's Data Engineering School. It was incrementally developed on a weekly basis by applying the core skills that correspond to the main stages in the Data Engineering lifecycle: Extract, Transform and Load (ETL). This readme is divided into sections that provide more detail on each stage of development
+This project was completed as a part of The Information Lab's Data Engineering School. It was incrementally developed on a weekly basis by applying the core skills that correspond to the main stages in the Data Engineering lifecycle: Extract, Transform and Load (ETL). The data for this project comes from Transport for London's (TfL) Unified API. This readme is divided into sections that provide more detail on each stage of development
 
 * Extract - ingesting data via API call in python script 🐍
 * Transform
