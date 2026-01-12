@@ -45,7 +45,7 @@ while count < number_of_tries:
     response = requests.get(url, timeout=10)
     response_code = response.status_code
 
-    #Wrapping folder creation, filepath creation, file write logic into an if that checks repsonse status code is successful "== 200". Response reason will be returned if not 200.
+    #Wrapping folder creation, filepath creation, file write logic into an if that checks response status code is successful "== 200". Response reason will be returned if not 
     if response_code == 200:
         #Assign json data to variable
         response_json = response.json()
