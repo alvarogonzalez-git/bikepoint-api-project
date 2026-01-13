@@ -21,9 +21,6 @@ def load_function(data_dir, AWS_ACCESS_KEY, AWS_SECRET_KEY, AWS_BUCKET_NAME, log
         , aws_secret_access_key = AWS_SECRET_KEY
     )
 
-    # Assign data filepath to a variable
-    data_dir = 'data'
-
     # Checks if folder is empty
     if len(os.listdir(data_dir)) == 0:
         print(f"The '{data_dir}' folder is empty.")
@@ -62,7 +59,7 @@ def load_function(data_dir, AWS_ACCESS_KEY, AWS_SECRET_KEY, AWS_BUCKET_NAME, log
                 # Delete the local file ONLY if the line above succeeds
                 os.remove(full_path)
                 print(f"Uploaded and deleted local copy: {filename}")
-                logger.info(f"Uploaded and deleted local copy: {filename}") 
+                logger.info(f"Uploaded and deleted local copy: {filename}")
 
                 
             except Exception as e:
